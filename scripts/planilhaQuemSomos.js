@@ -5,6 +5,7 @@ function initGoogleSheetsApi() {
     }).then(function () {
         loadProfessoresFromGoogleSheet();
         loadBolsistasFromGoogleSheet() ;
+        loadAlunosFromGoogleSheet();
     });
 }
 
@@ -67,6 +68,40 @@ function loadBolsistasFromGoogleSheet() {
                     </div>
                 `;
                 bolsistasContainer.appendChild(bolsistaDiv);
+            });
+        }
+    });
+}
+
+function loadAlunosFromGoogleSheet() {
+    const spreadsheetId = '1bnIVpHL_md8u_XXo-zA3ZJGbA2J_ijj0XtlJJjOPzvk'; 
+    const sheetName = 'pagina3'; 
+    gapi.client.sheets.spreadsheets.values.get({
+        spreadsheetId: spreadsheetId,
+        range: sheetName
+    }).then(function (response) {
+        const data = response.result.values;
+
+        if (data.length > 0) {
+            const alunosContainer = document.getElementById('alunos-container');
+            data.forEach(function (row) {
+                const nome = row[0];
+                const curso = row[1];
+                const anoPeriodo = row[2];
+                const descricao = row[3];
+                const foto = row[4];
+                const alunoDiv = document.createElement('div');
+                alunoDiv.className = 'col-md-4';
+                alunoDiv.innerHTML = `
+                    <div class="card">
+                        <img src="${foto}" alt="${nome}" class="img-fluid">
+                        <h3>${nome}</h3>
+                        <p>Curso: ${curso}</p>
+                        <p>Ano/Período: ${anoPeriodo}</p>
+                        <p>" ${descricao} "</p>
+                    </div>
+                `;
+                alunosContainer.appendChild(alunoDiv);
             });
         }
     });
