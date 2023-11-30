@@ -1,0 +1,61 @@
+.objetivos {
+    margin: 30px;
+    background-color: rgb(236, 236, 235);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.objetivo {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.objetivo .icone {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.objetivo h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.objetivos h2{
+    color:#000;
+}
+ div h2{
+    color:#000;
+ }
+
+.objetivo p {
+    color: #555;
+}
+
+.icone-amarelo {
+    color: #fdf039; 
+}
+
+section h3{
+    color: black;
+}
+@media (max-width: 768px) {
+    .objetivo {
+        margin-right: 0;
+    }
+    .objetivo h2 {
+        font-size: 18px;
+    }
+    .objetivo p {
+        font-size: 15px;
+    }
+    .img-fluid {
+        width: 70%; /* ou outro valor desejado */
+        height: auto;
+        display: block;
+        margin: 0 auto; /* Isso centralizará a imagem */
+    }
+}

@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+    .divCabecalho h1 {
+        font-size: 21px !important; 
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .divCabecalho p {
+        font-size: 14px;    
+        text-align: center;
+    }
+}
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body{
+    background-color: #fff34b;
+}
+.divCabecalho p{
+    text-align: justify;
+}
+.cor{
+    background-color: #555;
+}
+
+.letra{
+    color:white;
+}
+
+h1,h2,h3{
+    color:#fff34b;
+}
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.social-icons a {
+    margin-right: 10px; 
+}
+

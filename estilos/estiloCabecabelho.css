@@ -1,0 +1,14 @@
+.divCabecalho{
+    background-color:#212529;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    padding: 20px 0;
+}
+
+.divCabecalho h1{
+    font-size: 2rem;
+}
+
+.divCabecalho a.btn {
+    margin-top: 20px;
+}

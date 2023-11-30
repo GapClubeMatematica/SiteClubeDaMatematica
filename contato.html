@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="estilos/estiloGeral.css" type="text/css">
+    <link rel="stylesheet" href="estilos/estiloCabecabelho.css" type="text/css">
+    <link rel="stylesheet" href="estilos/estiloContato.css" type="text/css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuQaetG_oB0_sz8qLnrWNdgmDzfMfbLJU&callback=initMap&libraries=&v=weekly" defer></script>
+    <script scr="scripts/mapaQuemSomos.js"></script>
+    <title>Contato</title>
+</head>
+    
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quemSomos.html">QUEM SOMOS</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="videoaulasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                VIDEOAULAS
+                            </a>
+                            <ul class="dropdown-menu cor" aria-labelledby="videoaulasDropdown">
+                                <li><a class="dropdown-item letra" href="videoAulas.html">ALGEBRA</a></li>
+                                <li><a class="dropdown-item letra" href="#topic2">(RE)VISÃO</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">CONTATO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="divCabecalho">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="imagens/logo3.png" alt="Imagem do Clube da Matemática" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>QUER PARTICIPAR? </h1>
+                        <p class="letra">Preencha esse formulário, assim será adicionado no nosso grupo de Whatsapp e receberá os detalhes do nosso encontros!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="contato">
+            <div class="container">
+                <div class="row" style="margin: 20px;">
+
+                    <div class="col-md-6">
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd6Z5NLGjI22nPiW-gvnP94FRStkQSWjPTgAFkCzucGmp42PQ/viewform?embedded=true" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+                    </div>
+                    
+                    <div class="col-md-6 mapa-container embed-responsive embed-responsive-16by9" style="margin-top: 10px;">
+                        <iframe id="gmp-map" class="gmap embed-responsive-item" frameborder="0" style="border: 0;" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyARGYc6I4c43n6WlpPU4n1Uon2_Aj0lGBk&q=IFSULDEMINAS - Campus Machado&zoom=15" allowfullscreen> </iframe>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-dark text-white text-center py-3" >
+            <div class="container">
+            <div class="social-icons">
+                <a href="https://www.youtube.com/@ClubedaMatematicaGAPE" target="_blank">
+                    <img src="imagens/youtube.png" alt="Youtube">
+                </a>
+                <a href=" https://www.instagram.com/invites/contact/?i=wthv4qd2wpgu&utm_content=s68ua2o" target="_blank">
+                    <img src="imagens/instagram.png" alt="Instagram">
+                </a>
+            </div>
+            <p>&copy; Todos os direitos reservados. 2023</p>
+            </div>
+        </footer>
+</body>
+</html>

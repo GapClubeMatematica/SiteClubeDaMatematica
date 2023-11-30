@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos/estiloGeral.css" type="text/css"> 
+    <link rel="stylesheet" href="estilos/estiloCabecabelho.css" type="text/css">
+    <link rel="stylesheet" href="estilos/estiloVideoAulas.css" type="text/css">
+    <title>Clube de Matemática - Videoaulas</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quemSomos.html">QUEM SOMOS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="videoaulasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            VIDEOAULAS
+                        </a>
+                        <ul class="dropdown-menu cor" aria-labelledby="videoaulasDropdown">
+                            <li><a class="dropdown-item letra" href="videoAulas.html">ALGEBRA</a></li>
+                            <li><a class="dropdown-item letra" href="#topic2">(RE)VISÃO</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="divCabecalho">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="imagens/logo3.png" alt="Imagem do Clube da Matemática" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h1>BEM VINDO AO MUNDO DA ALGEBRA</h1>
+                    <p class="letra">Explore nossa coleção de videoaulas sobre este conteúdo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card corcard">
+                    <div class="card-header text-white corcard">
+                        <h5 class="card-title text-center corcard">ALGEBRA</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#aula1">Aula 1 <i class="fas fa-play"></i></a></li>
+                            <li class="list-group-item"><a href="#aula2">Aula 2 <i class="fas fa-play"></i></a></li>
+                            <li class="list-group-item"><a href="#aula3">Aula 3 <i class="fas fa-play"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div id="aula1" class="mb-4">
+                    <h2 class="video-title">Aula 1: Título da Aula 1</h2>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/8hSZyAPDjWg?si=bjb7gxH7EHQqk4xL" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <p class="video-description">Descrição da Aula 1.</p>
+                </div>
+                <div id="aula2" class="mb-4">
+                    <h2 class="video-title">Aula 2: Título da Aula 2</h2>
+                    <div class= "video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/sEVkJ-Y0iqY?si=pQ0zIP9QMRZ9CQmx" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <p class="video-description">Descrição da Aula 2.</p>
+                </div>
+                <div id="aula3">
+                    <h2 class="video-title">Aula 3: Título da Aula 3</h2>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/SlLn90L_xwg?si=R9IApPbRJ7Rfm9iA" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <p class="video-description">Descrição da Aula 3.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3" >
+        <div class="container">
+        <div class="social-icons">
+            <a href="https://www.youtube.com/@ClubedaMatematicaGAPE" target="_blank">
+                <img src="imagens/youtube.png" alt="Youtube">
+            </a>
+            <a href=" https://www.instagram.com/invites/contact/?i=wthv4qd2wpgu&utm_content=s68ua2o" target="_blank">
+                <img src="imagens/instagram.png" alt="Instagram">
+            </a>
+        </div>
+        <p>&copy; Todos os direitos reservados. 2023</p>
+        </div>
+    </footer>
+
+</body>
+</html>
