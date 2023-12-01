@@ -1,5 +1,5 @@
 .objetivos {
-    background-color: #f0f0f0; /* ou outra cor de sua escolha */
+    background-color: #f8f9fa; /* ou outra cor de sua escolha */
     margin: 30px;
     padding: 20px 0;
     text-align: center;
@@ -13,7 +13,6 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-
 .objetivo .icone {
     font-size: 40px;
     color: #1a7517;
@@ -25,15 +24,8 @@
     color: #0a0a0a;
 }
 
-.objetivos h2{
-    color:#000;
-}
- div h2{
-    color:#000;
- }
-
 .objetivo p {
-    color: #000000;
+    color: #0a0a0a;
 }
 
 section h3{
