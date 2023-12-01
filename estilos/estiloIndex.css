@@ -1,7 +1,6 @@
-/* Estilos para a seção "Sobre o GAPE" */
 .sobre-gape {
-    padding: 80px 0;
-    background-color: #f8f9fa;
+    padding: 50px 0; /* Ajustei o padding */
+    background-color: #fff; /* Alterei a cor de fundo para branco */
 }
 
 .sobre-gape img {
@@ -10,13 +9,13 @@
 
 .sobre-gape h2 {
     color: #343a40;
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+    font-size: 2rem; /* Reduzi um pouco o tamanho da fonte */
+    margin-bottom: 15px; /* Reduzi um pouco a margem inferior */
 }
 
 .sobre-gape p {
-    color: #6c757d;
-    font-size: 1.2rem;
+    color: #343a40;
+    font-size: 1rem; /* Reduzi um pouco o tamanho da fonte */
     line-height: 1.6;
 }
 
@@ -32,62 +31,54 @@
 }
 
 .btn-amarelo:hover {
-    background-color: #fff;;
+    background-color: #fff34b;
 }
 
 .objetivos {
-    margin: 30px;
+    margin: 10px; /* Reduzi a margem */
     background-color: #fff34b;
-    padding: 20px 0;
+    padding: 10px 0; /* Reduzi o padding */
     text-align: center;
 }
 
 .objetivo {
     background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 15px; /* Reduzi um pouco o padding */
+    margin-bottom: 15px; /* Reduzi um pouco a margem inferior */
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-
 .objetivo .icone {
-    font-size: 40px;
+    font-size: 30px; /* Reduzi um pouco o tamanho do ícone */
     color: #1a7517;
-    margin-bottom: 20px;
+    margin-bottom: 15px; /* Reduzi um pouco a margem inferior */
 }
 
 .objetivo h2 {
-    font-size: 28px;
+    font-size: 22px; /* Reduzi um pouco o tamanho da fonte */
     color: #0a0a0a;
 }
-
-.objetivos h2{
-    color:#000;
-}
- div h2{
-    color:#000;
- }
 
 .objetivo p {
     color: #000000;
 }
 
-section h3{
+section h3 {
     color: black;
 }
 
 .linha-do-tempo {
-    background-color: #fff34b; 
-    margin: 30px;
-    padding: 20px 0;
+    background-color: #fff34b;
+    margin: 10px; /* Reduzi a margem */
+    padding: 10px 0; /* Reduzi o padding */
     text-align: center;
 }
 
 .evento {
     background-color: #ffffff;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 15px; /* Reduzi um pouco o padding */
+    margin-bottom: 15px; /* Reduzi um pouco a margem inferior */
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -99,7 +90,7 @@ section h3{
 }
 
 .evento h3 {
-    font-size: 24px;
+    font-size: 20px; /* Reduzi um pouco o tamanho da fonte */
     color: #000000;
 }
 
@@ -118,9 +109,9 @@ section h3{
         font-size: 15px;
     }
     .img-fluid {
-        width: 70%; /* ou outro valor desejado */
+        width: 70%;
         height: auto;
         display: block;
-        margin: 0 auto; /* Isso centralizará a imagem */
+        margin: 0 auto;
     }
 }
