@@ -9,8 +9,7 @@
     margin-bottom: 20px;
     padding: 20px;
     box-shadow: 0 0 15px  #fff89c;
-    display: flex; /* Adicionado */
-    align-items: center; /* Adicionado */
+    text-align: center;
 }
 
 .card img {
@@ -19,9 +18,8 @@
     height: 120px; 
     object-fit: cover; 
     margin-bottom: 15px;
+    text-align: center;
 }
-
-
 
 .card h3 {
     font-size: 1.8rem;
