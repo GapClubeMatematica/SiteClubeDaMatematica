@@ -1,3 +1,12 @@
+function initGoogleSheetsApi() {
+    gapi.client.init({
+        apiKey: 'AIzaSyARGYc6I4c43n6WlpPU4n1Uon2_Aj0lGBk',
+        discoveryDocs: ['https://sheets.googleapis.com/$discovery/rest?version=v4'],
+    }).then(function () {
+        loadVideosFromGoogleSheet();
+    });
+}
+
 function loadVideosFromGoogleSheet() {
     const spreadsheetId = '1bnIVpHL_md8u_XXo-zA3ZJGbA2J_ijj0XtlJJjOPzvk';
     const sheetName = 'pagina5';
@@ -9,21 +18,26 @@ function loadVideosFromGoogleSheet() {
         const data = response.result.values;
 
         if (data.length > 0) {
-            const playlistContainer = document.querySelector('#video-list-container');
-            const playlistItems = document.createElement('ul');
-            playlistItems.className = 'list-group';
+            const videosContainer = document.querySelector('#video-content-container'); 
+            videosContainer.innerHTML = '';  
 
             data.forEach(function (row) {
                 const tituloVideo = row[0];
+                const urlVideo = row[1];
+                const descricaoVideo = row[2];
 
-                const listItem = document.createElement('li');
-                listItem.className = 'list-group-item';
-                listItem.innerHTML = `<a href="#${tituloVideo.toLowerCase().replace(/\s+/g, '-')}">${tituloVideo} <i class="fas fa-play"></i></a>`;
-
-                playlistItems.appendChild(listItem);
+                const videoDiv = document.createElement('div');
+                videoDiv.id = tituloVideo.toLowerCase().replace(/\s+/g, '-'); // ID único para cada vídeo
+                videoDiv.className = 'mb-4';
+                videoDiv.innerHTML = `
+                    <h2 class="video-title">${tituloVideo}</h2>
+                    <div class="video-wrapper">
+                        <iframe src="${urlVideo}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <p class="video-description">${descricaoVideo}</p>
+                `;
+                videosContainer.appendChild(videoDiv);
             });
-
-            playlistContainer.appendChild(playlistItems);
         }
     });
 }
