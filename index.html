@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="estilos/estiloCabecabelho.css" type="text/css">
     <link rel="stylesheet" href="estilos/estiloGeral.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>Clube da Matemática</title>
 </head>    
 <body>
@@ -120,7 +121,7 @@
         <div class="linha-do-tempo">
             <div class="container" >
                 <h2 class="text-center">Eventos Recentes</h2>
-                <div class="row"  onmouseover="highlightEvent(this)" onmouseout="unhighlightEvent(this)">
+                <div class="row">
                    
                 </div>
             </div>
@@ -144,15 +145,7 @@
     <script src="https://apis.google.com/js/api.js"></script>
     <script src="scripts/planilhaEventos.js"></script>
 
-    <script>
-        function highlightEvent(event) {
-            event.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
-        }
-    
-        function unhighlightEvent(event) {
-            event.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
-        }
-    </script>
+   
 
     </body>
 </html>
