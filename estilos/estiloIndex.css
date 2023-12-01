@@ -1,6 +1,6 @@
 .sobre-gape {
-    padding: 50px 0; /* Ajustei o padding */
-    background-color: #fff; /* Alterei a cor de fundo para branco */
+    padding: 50px 10px; 
+    background-color: #fff; 
 }
 
 .sobre-gape img {
@@ -9,13 +9,13 @@
 
 .sobre-gape h2 {
     color: #343a40;
-    font-size: 2rem; /* Reduzi um pouco o tamanho da fonte */
-    margin-bottom: 15px; /* Reduzi um pouco a margem inferior */
+    font-size: 2rem; 
+    margin-bottom: 15px; 
 }
 
 .sobre-gape p {
     color: #343a40;
-    font-size: 1rem; /* Reduzi um pouco o tamanho da fonte */
+    font-size: 1rem; 
     line-height: 1.6;
 }
 
@@ -35,28 +35,28 @@
 }
 
 .objetivos {
-    margin: 10px; /* Reduzi a margem */
+    margin: 20px; 
     background-color: #fff34b;
-    padding: 10px 0; /* Reduzi o padding */
+    padding: 10px 10px; 
     text-align: center;
 }
 
 .objetivo {
     background-color: #fff;
-    padding: 15px; /* Reduzi um pouco o padding */
-    margin-bottom: 15px; /* Reduzi um pouco a margem inferior */
+    padding: 20px; 
+    margin-bottom: 15px; 
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .objetivo .icone {
-    font-size: 30px; /* Reduzi um pouco o tamanho do ícone */
+    font-size: 40px; 
     color: #1a7517;
-    margin-bottom: 15px; /* Reduzi um pouco a margem inferior */
+    margin-bottom: 15px; 
 }
 
 .objetivo h2 {
-    font-size: 22px; /* Reduzi um pouco o tamanho da fonte */
+    font-size: 22px; 
     color: #0a0a0a;
 }
 
@@ -70,15 +70,15 @@ section h3 {
 
 .linha-do-tempo {
     background-color: #fff34b;
-    margin: 10px; /* Reduzi a margem */
-    padding: 10px 0; /* Reduzi o padding */
+    margin: 20px; 
+    padding: 10px 10px; 
     text-align: center;
 }
 
 .evento {
     background-color: #ffffff;
-    padding: 15px; /* Reduzi um pouco o padding */
-    margin-bottom: 15px; /* Reduzi um pouco a margem inferior */
+    padding: 20px; 
+    margin-bottom: 15px; 
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -90,7 +90,7 @@ section h3 {
 }
 
 .evento h3 {
-    font-size: 20px; /* Reduzi um pouco o tamanho da fonte */
+    font-size: 20px; 
     color: #000000;
 }
 
