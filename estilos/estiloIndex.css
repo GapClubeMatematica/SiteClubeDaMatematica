@@ -62,6 +62,7 @@
 
 .objetivo p {
     color: #000000;
+    text-align: justify;
 }
 
 section h3 {
@@ -96,6 +97,7 @@ section h3 {
 
 .evento p {
     color: #000000;
+    text-align: justify;
 }
 
 @media (max-width: 768px) {
