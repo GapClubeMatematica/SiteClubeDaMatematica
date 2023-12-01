@@ -1,17 +1,18 @@
 .objetivos {
+    background-color: #f0f0f0; /* ou outra cor de sua escolha */
     margin: 30px;
-    background-color: rgb(236, 236, 235);
     padding: 20px 0;
     text-align: center;
 }
 
 .objetivo {
-    background-color: #fff;
+    background-color: #fdf039; /* ou outra cor de sua escolha */
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 
 .objetivo .icone {
     font-size: 40px;
@@ -21,7 +22,7 @@
 
 .objetivo h2 {
     font-size: 28px;
-    color: #333;
+    color: #0a0a0a;
 }
 
 .objetivos h2{
@@ -32,8 +33,9 @@
  }
 
 .objetivo p {
-    color: #555;
+    color: #000000;
 }
+
 
 .icone-amarelo {
     color: #fdf039; 
