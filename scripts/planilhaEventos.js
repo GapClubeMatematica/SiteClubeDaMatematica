@@ -19,13 +19,13 @@ function loadEventosFromGoogleSheet() {
 
         if (data.length > 0) {
             const eventosContainer = document.querySelector('.linha-do-tempo .row');
-            data.forEach(function (row) {
+            data.forEach(function (row, index) {
                 const nomeEvento = row[0];
                 const descricaoEvento = row[1];
                 const imagemEvento = row[2];
 
                 const eventoDiv = document.createElement('div');
-                eventoDiv.className = 'col-md-4';
+                eventoDiv.className = 'col-md-4 evento animate__animated';
                 eventoDiv.innerHTML = `
                     <div class="evento">
                         <img src="${imagemEvento}" alt="${nomeEvento}">
@@ -34,6 +34,11 @@ function loadEventosFromGoogleSheet() {
                     </div>
                 `;
                 eventosContainer.appendChild(eventoDiv);
+
+                
+                setTimeout(() => {
+                    eventoDiv.classList.add('animate__fadeInUp');
+                }, index * 200);
             });
         }
     });
