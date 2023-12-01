@@ -39,6 +39,37 @@
 section h3{
     color: black;
 }
+
+.linha-do-tempo {
+    background-color: #f8f9fa; /* ou outra cor de sua escolha */
+    margin: 30px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.evento {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.evento img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.evento h3 {
+    font-size: 24px;
+    color: #000000;
+}
+
+.evento p {
+    color: #000000;
+}
+
 @media (max-width: 768px) {
     .objetivo {
         margin-right: 0;
