@@ -10,9 +10,8 @@ function loadVideosFromGoogleSheet() {
 
         if (data.length > 0) {
             const playlistContainer = document.querySelector('#video-list-container');
-            playlistContainer.innerHTML = '<ul class="list-group"></ul>';  // Adiciona uma lista ao contêiner
-
-            const playlistItems = playlistContainer.querySelector('ul');
+            const playlistItems = document.createElement('ul');
+            playlistItems.className = 'list-group';
 
             data.forEach(function (row) {
                 const tituloVideo = row[0];
@@ -23,6 +22,8 @@ function loadVideosFromGoogleSheet() {
 
                 playlistItems.appendChild(listItem);
             });
+
+            playlistContainer.appendChild(playlistItems);
         }
     });
 }
