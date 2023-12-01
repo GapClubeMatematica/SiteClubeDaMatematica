@@ -35,9 +35,9 @@
 }
 
 .objetivos {
-    margin: 20px; 
-    background-color: #fff34b;
+    margin: 40px; 
     padding: 10px 10px; 
+    background-color: #fff34b;
     text-align: center;
 }
 
@@ -71,7 +71,7 @@ section h3 {
 
 .linha-do-tempo {
     background-color: #fff34b;
-    margin: 20px; 
+    margin: 40px; 
     padding: 10px 10px; 
     text-align: center;
 }
