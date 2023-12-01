@@ -34,15 +34,6 @@
     background-color: #fff34b;
 }
 
-.evento img {
-    max-width: 100%;
-    height: auto; 
-    border-radius: 8px;
-    margin-bottom: 10px;
-    object-fit: cover; 
-}
-
-
 .objetivos {
     margin: 40px; 
     padding: 10px 10px; 
