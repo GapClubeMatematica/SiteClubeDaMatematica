@@ -1,11 +1,12 @@
 .objetivos {
-    background-color: #fff23b; 
+    margin: 30px;
+    background-color: rgb(236, 236, 235);
     padding: 20px 0;
     text-align: center;
 }
 
 .objetivo {
-    background-color: #f0f0f0; 
+    background-color: #fff;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
