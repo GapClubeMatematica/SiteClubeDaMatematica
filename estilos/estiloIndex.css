@@ -34,16 +34,14 @@
     background-color: #fff34b;
 }
 
-.evento-aos {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+.evento img {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+    object-fit: cover; 
 }
 
-.evento-aos.aos-animate {
-    opacity: 1;
-    transform: translateY(0);
-}
 
 .objetivos {
     margin: 40px; 
