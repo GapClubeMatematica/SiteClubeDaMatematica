@@ -9,15 +9,15 @@
     margin-bottom: 20px;
     padding: 20px;
     box-shadow: 0 0 15px  #fff89c;
-    display: flex; /* Adicionado */
-    align-items: center; /* Adicionado */
-    justify-content: center; /* Adicionado */
-    text-align: center; /* Adicionado */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
 }
 
 .card img {
-    border-radius: 15px; /* Alterado para 15px para corresponder ao border-radius do cartão */
-    width: 120px; /* Definindo a largura para manter uma forma mais quadrada */
+    border-radius: 15px; 
+    width: 120px;
     height: 120px; 
     object-fit: cover; 
     margin-bottom: 15px;
@@ -32,5 +32,5 @@
 .card p {
     margin: 8px 0;
     color: #3b3a3a;
-    text-align: justify; /* Alterado para justificar o texto */
+    text-align: justify; 
 }
