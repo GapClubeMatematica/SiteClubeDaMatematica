@@ -9,26 +9,28 @@
     margin-bottom: 20px;
     padding: 20px;
     box-shadow: 0 0 15px  #fff89c;
-    text-align: center;
+    display: flex; /* Adicionado */
+    align-items: center; /* Adicionado */
+    justify-content: center; /* Adicionado */
+    text-align: center; /* Adicionado */
 }
 
 .card img {
-    border-radius: 50%;
-    max-width: 120px;
+    border-radius: 15px; /* Alterado para 15px para corresponder ao border-radius do cartão */
+    width: 120px; /* Definindo a largura para manter uma forma mais quadrada */
     height: 120px; 
     object-fit: cover; 
     margin-bottom: 15px;
-    text-align: center;
 }
 
 .card h3 {
     font-size: 1.8rem;
     margin-bottom: 10px;
-    color: #333333; /
+    color: #333333;
 }
 
 .card p {
     margin: 8px 0;
     color: #3b3a3a;
+    text-align: justify; /* Alterado para justificar o texto */
 }
-
