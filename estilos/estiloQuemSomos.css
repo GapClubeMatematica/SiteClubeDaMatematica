@@ -3,7 +3,7 @@
 }
 
 .card {
-    background-color: #212529; /* Alteração para a cor da barra de navegação */
+    background-color: #ffffff; 
     border: 2px solid  #fff34b; 
     border-radius: 15px; 
     margin-bottom: 20px;
@@ -26,11 +26,11 @@
 .card h3 {
     font-size: 1.8rem;
     margin-bottom: 10px;
-    color: #fff; /* Alteração para texto branco */
+    color: #333333;
 }
 
 .card p {
     margin: 8px 0;
-    color: #f8f9fa; /* Alteração para texto branco */
+    color: #3b3a3a;
     text-align: justify; 
 }
