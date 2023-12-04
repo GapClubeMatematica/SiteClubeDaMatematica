@@ -7,7 +7,7 @@
     border-radius: 8px;
 }
 
-.sobre-gape h2, p {
+.sobre-gape h2 {
     color: #343a40;
     font-size: 2rem; 
     margin-bottom: 15px;
@@ -15,8 +15,10 @@
 }
 
 .sobre-gape p {
+    color: #343a40;
     font-size: 1rem; 
     line-height: 1.6;
+    text-align: justify;
 }
 
 .btn-amarelo {
