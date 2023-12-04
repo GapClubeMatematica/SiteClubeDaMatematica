@@ -22,12 +22,13 @@
 .video-description {
     color: black;
     margin-top: 20px;
-    border: 2px solid #ffd700; 
+    border: 2px solid :#fff34b; 
     padding: 10px; 
+    text-aling:justify;
     border-radius: 8px; 
 }
 .mb-4 {
-    border: 2px solid #ffd700;
+    border: 2px solid :#fff34b;
     border-radius: 15px;
     padding: 15px;
     background-color: #ffffff;
