@@ -7,4 +7,4 @@
       um tutorial para os novos membros do clube interessados em aprender ainda mais. 
 
 Contém as propriedades do site do gape
-https://github.com/GapClubeMatematica/SiteClubeDaMatematica/blob/main/Fotos%20para%20site/Professores/Katia.jpg?raw=true
+<img scr="https://github.com/GapClubeMatematica/SiteClubeDaMatematica/blob/main/Fotos%20para%20site/Professores/Katia.jpg?raw=true">
