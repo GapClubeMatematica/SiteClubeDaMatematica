@@ -1,21 +1,6 @@
 #gmp-map {
     height: 100%;
 }
-/* CSS personalizado para tornar o mapa responsivo */
-.mapa-container {
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 56.25%; /* Proporção 16:9 para manter o aspecto do mapa */
-    height: 0;
-}
-
-.gmap {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
 .mapa-container {
     position: relative;
@@ -31,6 +16,23 @@
     width: 100%;
     height: 100%;
 }
+
+.bio-instagram {
+    padding: 40px 0;
+    background-color: #f8f9fa; 
+}
+
+.bio-instagram h2 {
+    font-size: 2rem;
+    color: #333333;
+}
+
+.bio-instagram p {
+    font-size: 1.2rem;
+    color: #555555;
+    text-align: justify;
+}
+
 @media (max-width: 800px) {
     .col-md-6 {
         max-width: 100%;

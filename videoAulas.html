@@ -1,84 +1,86 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="estilos/estiloGeral.css" type="text/css"> 
-    <link rel="stylesheet" href="estilos/estiloCabecabelho.css" type="text/css">
-    <link rel="stylesheet" href="estilos/estiloVideoAulas.css" type="text/css">
-    <title>Clube de Matemática - Videoaula</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos/estiloGeral.css" type="text/css"> 
+        <link rel="stylesheet" href="estilos/estiloCabecabelho.css" type="text/css">
+        <link rel="stylesheet" href="estilos/estiloVideoAulas.css" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <title>Videoaulas</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quemSomos.html">QUEM SOMOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="eventos.html">EVENTOS</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="videoaulasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                VIDEOAULAS
+                            </a>
+                            <ul class="dropdown-menu cor" aria-labelledby="videoaulasDropdown">
+                                <li><a class="dropdown-item letra" href="videoAulas.html">LIVES GRAVADAS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">CONTATO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="quemSomos.html">QUEM SOMOS</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="videoaulasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            VIDEOAULAS
-                        </a>
-                        <ul class="dropdown-menu cor" aria-labelledby="videoaulasDropdown">
-                            <li><a class="dropdown-item letra" href="videoAulas.html">LIVES GRAVADAS</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contato.html">CONTATO</a>
-                    </li>
-                </ul>
+        <div class="divCabecalho">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="imagens/logo3.png" alt="Imagem do Clube da Matemática" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>EXPLORE NOSSA COLEÇÃO DESTE CONTEÚDO.</h1>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
 
-    <div class="divCabecalho">
-        <div class="container">
+        <div class="container mt-4">
             <div class="row">
-                <div class="col-md-6">
-                    <img src="imagens/logo3.png" alt="Imagem do Clube da Matemática" class="img-fluid">
-                </div>
-                <div class="col-md-6 letraAmarela">
-                    <h1>VIDEOAULAS</h1>
-                    <p class="letra">Assista os videos preparados para vocês!</p>
+                <div class="col-md-9" id="video-content-container">
+                    
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="container mt-4">
-        <div class="row">
-            <div class="col-md-9" id="video-content-container">
-                
+
+        <footer class="bg-dark text-white text-center py-3" >
+            <div class="container">
+            <div class="social-icons">
+                <a href="https://www.youtube.com/@ClubedaMatematicaGAPE" target="_blank">
+                    <img src="imagens/youtube.png" alt="Youtube">
+                </a>
+                <a href="https://instagram.com/clubedamatematica.ifmch?igshid=MmVlMjlkMTBhMg==" target="_blank">
+                    <img src="imagens/instagram.png" alt="Instagram">
+                </a>
             </div>
-        </div>
-    </div>
-
-
-    <footer class="bg-dark text-white text-center py-3" >
-        <div class="container">
-        <div class="social-icons">
-            <a href="https://www.youtube.com/@ClubedaMatematicaGAPE" target="_blank">
-                <img src="imagens/youtube.png" alt="Youtube">
-            </a>
-              <a href="https://instagram.com/clubedamatematica.ifmch?igshid=MmVlMjlkMTBhMg==" target="_blank">
-                <img src="imagens/instagram.png" alt="Instagram">
-            </a>
-        </div>
-        <p>&copy; Todos os direitos reservados. 2023</p>
-        </div>
-    </footer>
-    <script src="https://apis.google.com/js/api.js"></script>
-    <script src="scripts/planilhaVideoAulas.js"></script>
-</body>
+            <p>&copy; Todos os direitos reservados. 2023</p>
+            </div>
+        </footer>
+        <script src="https://apis.google.com/js/api.js"></script>
+        <script src="scripts/planilhaVideoAulas.js"></script>
+    </body>
 </html>

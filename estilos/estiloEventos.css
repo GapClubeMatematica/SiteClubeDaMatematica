@@ -1,0 +1,30 @@
+.linha-do-tempo {
+    background-color: #fff34b;
+    margin: 40px; 
+    padding: 10px 10px; 
+    text-align: center;
+}
+
+.evento {
+    background-color: #ffffff;
+    padding: 20px; 
+    margin-bottom: 15px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.evento img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.evento h3 {
+    font-size: 20px; 
+    color: #000000;
+}
+
+.evento p {
+    color: #000000;
+    text-align: justify;
+}
