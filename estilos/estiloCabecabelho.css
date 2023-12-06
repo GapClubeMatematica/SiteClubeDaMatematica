@@ -12,3 +12,16 @@
 .divCabecalho a.btn {
     margin-top: 20px;
 }
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+@media (max-width: 767px) {
+    .logo {
+        max-width: 80%; 
+    }
+}
