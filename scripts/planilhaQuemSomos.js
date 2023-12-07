@@ -97,7 +97,7 @@ function loadAlunosFromGoogleSheet() {
                         <img src="${foto}" alt="${nome}" class="img-fluid">
                         <h3>${nome}</h3>
                         <p>Curso: ${curso}</p>
-                        <p>Ano/Período: ${anoPeriodo}</p>
+                        <p><strong>Ano/Período:</strong> ${anoPeriodo}</p>
                         <p>" ${descricao} "</p>
                     </div>
                 `;
