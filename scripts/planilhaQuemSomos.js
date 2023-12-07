@@ -31,8 +31,8 @@ function loadProfessoresFromGoogleSheet() {
                     <div class="card">
                         <img src="${foto}" alt="${nome}" class="img-fluid">
                         <h3>${nome}</h3>
-                        <p>Área: ${area}</p>
-                        <p>Grau de Instrução: ${grauInstrucao}</p>
+                        <p><strong>Área:</strong> ${area}</p>
+                        <p><strong>Grau de Instrução:</strong> ${grauInstrucao}</p>
                     </div>
                 `;
                 professoresContainer.appendChild(professorDiv);
@@ -63,8 +63,8 @@ function loadBolsistasFromGoogleSheet() {
                     <div class="card">
                         <img src="${foto}" alt="${nome}" class="img-fluid">
                         <h3>${nome}</h3>
-                        <p>Curso: ${area}</p>
-                        <p>Ano/Período: ${anoPeriodo}</p>
+                        <p><strong>Curso:</strong> ${area}</p>
+                        <p><strong>Ano/Período:</strong> ${anoPeriodo}</p>
                     </div>
                 `;
                 bolsistasContainer.appendChild(bolsistaDiv);
@@ -96,7 +96,7 @@ function loadAlunosFromGoogleSheet() {
                     <div class="card">
                         <img src="${foto}" alt="${nome}" class="img-fluid">
                         <h3>${nome}</h3>
-                        <p>Curso: ${curso}</p>
+                        <p><strong>Curso:</strong> ${curso}</p>
                         <p><strong>Ano/Período:</strong> ${anoPeriodo}</p>
                         <p>" ${descricao} "</p>
                     </div>
