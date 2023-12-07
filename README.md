@@ -11,7 +11,7 @@
 
   Esse é são os eventos já cadastrados no site e para adicionar mais, basta seguir esses passos:
 
-Atualizando Planilhas
+	Atualizando Planilhas
 
 Acesse o Google Drive e encontre a planilha correspondente ao site no grupo, ela terá o nome de “DadosSite”.
 
@@ -21,7 +21,7 @@ Salve as alterações e pronto ela estará atualizada.
 
 Como visto acima é bem simples, agora explicarei como adicionar as imagens no GitHub e posteriormente na planilha. 
 
-Adicionando Imagens no GitHub
+	Adicionando Imagens no GitHub
 
 Acesse o repositório do GitHub e procure por “Fotos para o site” e selecione a pasta correspondente a imagem que será inserida, haverá o botão “Adicionar arquivos” e selecionar “upload files” após isso basta escolher a imagem desejada confirmar e pronto a imagem estará pronta.
 
