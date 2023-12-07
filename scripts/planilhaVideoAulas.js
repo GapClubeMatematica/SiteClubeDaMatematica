@@ -9,7 +9,7 @@ function initGoogleSheetsApi() {
 
 function loadVideosFromGoogleSheet() {
     const spreadsheetId = '1bnIVpHL_md8u_XXo-zA3ZJGbA2J_ijj0XtlJJjOPzvk';
-    const sheetName = 'pagina5';  
+    const sheetName = 'videoaulas';  
 
     gapi.client.sheets.spreadsheets.values.get({
         spreadsheetId: spreadsheetId,
