@@ -10,7 +10,7 @@ function initGoogleSheetsApi() {
 
 function loadEventosFromGoogleSheet() {
     const spreadsheetId = '1bnIVpHL_md8u_XXo-zA3ZJGbA2J_ijj0XtlJJjOPzvk';
-    const sheetName = 'pagina4';
+    const sheetName = 'eventos';
     gapi.client.sheets.spreadsheets.values.get({
         spreadsheetId: spreadsheetId,
         range: sheetName
