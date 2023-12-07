@@ -11,7 +11,7 @@ function initGoogleSheetsApi() {
 
 function loadProfessoresFromGoogleSheet() {
     const spreadsheetId = '1bnIVpHL_md8u_XXo-zA3ZJGbA2J_ijj0XtlJJjOPzvk'; 
-    const sheetName = 'pagina1'; 
+    const sheetName = 'professores'; 
     gapi.client.sheets.spreadsheets.values.get({
         spreadsheetId: spreadsheetId,
         range: sheetName
@@ -43,7 +43,7 @@ function loadProfessoresFromGoogleSheet() {
 
 function loadBolsistasFromGoogleSheet() {
     const spreadsheetId = '1bnIVpHL_md8u_XXo-zA3ZJGbA2J_ijj0XtlJJjOPzvk'; 
-    const sheetName = 'pagina2'; 
+    const sheetName = 'bolsistas'; 
     gapi.client.sheets.spreadsheets.values.get({
         spreadsheetId: spreadsheetId,
         range: sheetName
@@ -75,7 +75,7 @@ function loadBolsistasFromGoogleSheet() {
 
 function loadAlunosFromGoogleSheet() {
     const spreadsheetId = '1bnIVpHL_md8u_XXo-zA3ZJGbA2J_ijj0XtlJJjOPzvk'; 
-    const sheetName = 'pagina3'; 
+    const sheetName = 'alunos'; 
     gapi.client.sheets.spreadsheets.values.get({
         spreadsheetId: spreadsheetId,
         range: sheetName
