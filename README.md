@@ -55,3 +55,8 @@ Cole o texto na planilha de vídeos, lembrando de adicionar também um título e
 
 *Todas as planilhas têm o mesmo fundamento, basta cumprir todos os campos salvá-los.
 
+ 	 Novos membros
+Conhece alguém interessado em participar? Faça o convite para ele ou ela, basta preencher o formulário em anexo na aba "CONTATO" e depois faça o contato, você pode sugerir uma visita no campus para maiores informações se quiser também! 
+Venha nos fazer uma visita ou siga-nos nas Redes Sociais.
+
+
